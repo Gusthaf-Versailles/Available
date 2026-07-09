@@ -1136,3 +1136,34 @@ img { max-width: 100%; display: block; }
     height: 220px;
   }
 }
+.designer-credit {
+  padding: 22px 0 8px;
+  text-align: center;
+}
+
+.designer-credit a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255,255,255,0.58);
+  border: 1px solid var(--line);
+  font-size: 0.86rem;
+  font-weight: 600;
+  transition: 0.22s ease;
+}
+
+.designer-credit strong {
+  margin-left: 4px;
+  color: var(--text);
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.designer-credit a:hover {
+  color: var(--text);
+  background: rgba(255,255,255,0.82);
+  transform: translateY(-1px);
+}
